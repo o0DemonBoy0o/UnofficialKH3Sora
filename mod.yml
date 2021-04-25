@@ -1,0 +1,428 @@
+title: Unofficial KH3 Sora
+originalAuthor: hennykage
+description: hennykage's KH3 Sora Converted to OpenKH mod format
+assets:
+  - name: obj/ACTOR_SORA.mdlx
+    method: copy
+    source:
+    - name: obj/ACTOR_SORA.mdlx
+  - name: obj/ACTOR_SORA_H.mdlx
+    method: copy
+    source:
+    - name: obj/ACTOR_SORA_H.mdlx
+  - name: obj/AL14_PLAYER.mdlx
+    method: copy
+    source:
+    - name: obj/AL14_PLAYER.mdlx
+  - name: obj/DEAD_BOSS.mdlx
+    method: copy
+    source:
+    - name: obj/DEAD_BOSS.mdlx
+  - name: obj/H_EX500.mdlx
+    method: copy
+    source:
+    - name: obj/H_EX500.mdlx
+  - name: obj/H_EX500_BTLF.mdlx
+    method: copy
+    source:
+    - name: obj/H_EX500_BTLF.mdlx
+  - name: obj/H_EX500_KH1F.mdlx
+    method: copy
+    source:
+    - name: obj/H_EX500_KH1F.mdlx
+  - name: obj/H_EX500_MAGF.mdlx
+    method: copy
+    source:
+    - name: obj/H_EX500_MAGF.mdlx
+  - name: obj/H_EX500_TRIF.mdlx
+    method: copy
+    source:
+    - name: obj/H_EX500_TRIF.mdlx
+  - name: obj/H_EX500_ULTF.mdlx
+    method: copy
+    source:
+    - name: obj/H_EX500_ULTF.mdlx
+  - name: obj/LAST_ATTACKER.mdlx
+    method: copy
+    source:
+    - name: obj/LAST_ATTACKER.mdlx
+  - name: obj/LAST_GIMMICK.mdlx
+    method: copy
+    source:
+    - name: obj/LAST_GIMMICK.mdlx
+  - name: obj/LAST_HITMARK.mdlx
+    method: copy
+    source:
+    - name: obj/LAST_HITMARK.mdlx
+  - name: obj/PO06_PLAYER.mdlx
+    method: copy
+    source:
+    - name: obj/PO06_PLAYER.mdlx
+  - name: obj/PO07_PLAYER.mdlx
+    method: copy
+    source:
+    - name: obj/PO07_PLAYER.mdlx
+  - name: obj/PO08_PLAYER.mdlx
+    method: copy
+    source:
+    - name: obj/PO08_PLAYER.mdlx
+  - name: obj/P_EX100.a.fm
+    method: copy
+    source:
+    - name: obj/P_EX100.a.fm
+  - name: obj/P_EX100.mdlx
+    method: copy
+    source:
+    - name: obj/P_EX100.mdlx
+  - name: obj/P_EX100_AL_CARPET.a.fm
+    method: copy
+    source:
+    - name: obj/P_EX100_AL_CARPET.a.fm
+  - name: obj/P_EX100_AL_CARPET.mdlx
+    method: copy
+    source:
+    - name: obj/P_EX100_AL_CARPET.mdlx
+  - name: obj/P_EX100_BTLF.a.fm
+    method: copy
+    source:
+    - name: obj/P_EX100_BTLF.a.fm
+  - name: obj/P_EX100_BTLF.mdlx
+    method: copy
+    source:
+    - name: obj/P_EX100_BTLF.mdlx
+  - name: obj/P_EX100_HTLF.a.fm
+    method: copy
+    source:
+    - name: obj/P_EX100_HTLF.a.fm
+  - name: obj/P_EX100_HTLF.mdlx
+    method: copy
+    source:
+    - name: obj/P_EX100_HTLF.mdlx
+  - name: obj/P_EX100_KH1F.a.fm
+    method: copy
+    source:
+    - name: obj/P_EX100_KH1F.a.fm
+  - name: obj/P_EX100_KH1F.mdlx
+    method: copy
+    source:
+    - name: obj/P_EX100_KH1F.mdlx
+  - name: obj/P_EX100_LAST.mdlx
+    method: copy
+    source:
+    - name: obj/P_EX100_LAST.mdlx
+  - name: obj/P_EX100_MAGF.a.fm
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.a.fm
+  - name: obj/P_EX100_MAGF.mdlx
+    method: copy
+    source:
+    - name: obj/P_EX100_MAGF.mdlx
+  - name: obj/P_EX100_MEMO.mdlx
+    method: copy
+    source:
+    - name: obj/P_EX100_MEMO.mdlx
+  - name: obj/P_EX100_NPC.mdlx
+    method: copy
+    source:
+    - name: obj/P_EX100_NPC.mdlx
+  - name: obj/P_EX100_SIDECAR.mdlx
+    method: copy
+    source:
+    - name: obj/P_EX100_SIDECAR.mdlx
+  - name: obj/P_EX100_TRIF.a.fm
+    method: copy
+    source:
+    - name: obj/P_EX100_TRIF.a.fm
+  - name: obj/P_EX100_TRIF.mdlx
+    method: copy
+    source:
+    - name: obj/P_EX100_TRIF.mdlx
+  - name: obj/P_EX100_ULTF.a.fm
+    method: copy
+    source:
+    - name: obj/P_EX100_ULTF.a.fm
+  - name: obj/P_EX100_ULTF.mdlx
+    method: copy
+    source:
+    - name: obj/P_EX100_ULTF.mdlx
+  - name: obj/P_EX100_WM.mdlx
+    method: copy
+    source:
+    - name: obj/P_EX100_WM.mdlx
+  - name: obj/TR_PLAYER.mdlx
+    method: copy
+    source:
+    - name: obj/TR_PLAYER.mdlx
+  - name: obj/WM_EX100.mdlx
+    method: copy
+    source:
+    - name: obj/WM_EX100.mdlx
+  - name: voice/us/battle/al0_sora.vsb
+    method: copy
+    source:
+    - name: voice/us/battle/al0_sora.vsb
+  - name: voice/us/battle/bb0_sora.vsb
+    method: copy
+    source:
+    - name: voice/us/battle/bb0_sora.vsb
+  - name: voice/us/battle/ca0_sora.vsb
+    method: copy
+    source:
+    - name: voice/us/battle/ca0_sora.vsb
+  - name: voice/us/battle/dc0_sora.vsb
+    method: copy
+    source:
+    - name: voice/us/battle/dc0_sora.vsb
+  - name: voice/us/battle/eh0_sora.vsb
+    method: copy
+    source:
+    - name: voice/us/battle/eh0_sora.vsb
+  - name: voice/us/battle/hb0_sora.vsb
+    method: copy
+    source:
+    - name: voice/us/battle/hb0_sora.vsb
+  - name: voice/us/battle/he0_sora.vsb
+    method: copy
+    source:
+    - name: voice/us/battle/he0_sora.vsb
+  - name: voice/us/battle/lk0_sora.vsb
+    method: copy
+    source:
+    - name: voice/us/battle/lk0_sora.vsb
+  - name: voice/us/battle/lm0_sora.vsb
+    method: copy
+    source:
+    - name: voice/us/battle/lm0_sora.vsb
+  - name: voice/us/battle/mu0_sora.vsb
+    method: copy
+    source:
+    - name: voice/us/battle/mu0_sora.vsb
+  - name: voice/us/battle/nm0_sora.vsb
+    method: copy
+    source:
+    - name: voice/us/battle/nm0_sora.vsb
+  - name: voice/us/battle/po0_sora.vsb
+    method: copy
+    source:
+    - name: voice/us/battle/po0_sora.vsb
+  - name: voice/us/battle/tr0_sora.vsb
+    method: copy
+    source:
+    - name: voice/us/battle/tr0_sora.vsb
+  - name: voice/us/battle/tt0_sora.vsb
+    method: copy
+    source:
+    - name: voice/us/battle/tt0_sora.vsb
+
+
+#probable final xemnas keyblade fix
+  - name: obj/P_EX100_KH1F.mset
+    method: copy
+    source:
+    - name: obj/P_EX100_KH1F.mset
+  - name: obj/W_EX010_KH1F.mset
+    method: copy
+    source:
+    - name: obj/W_EX010_KH1F.mset
+#Kh3Menu
+#  - name: field2d/jp/al0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/al0command.2dd
+#  - name: field2d/jp/al0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/al0field.2dd
+#  - name: field2d/jp/bb0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/bb0command.2dd
+#  - name: field2d/jp/bb0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/bb0field.2dd
+#  - name: field2d/jp/ca0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/ca0command.2dd
+#  - name: field2d/jp/ca0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/ca0field.2dd
+#  - name: field2d/jp/dc0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/dc0command.2dd
+#  - name: field2d/jp/dc0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/dc0field.2dd
+#  - name: field2d/jp/dc1command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/dc1command.2dd
+#  - name: field2d/jp/di0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/di0command.2dd
+#  - name: field2d/jp/di0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/di0field.2dd
+#  - name: field2d/jp/eh0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/eh0command.2dd
+#  - name: field2d/jp/eh0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/eh0field.2dd
+#  - name: field2d/jp/eh1command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/eh1command.2dd
+#  - name: field2d/jp/es0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/es0command.2dd
+#  - name: field2d/jp/es0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/es0field.2dd
+#  - name: field2d/jp/hb0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/hb0command.2dd
+#  - name: field2d/jp/hb0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/hb0field.2dd
+#  - name: field2d/jp/hb1command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/hb1command.2dd
+#  - name: field2d/jp/hb2command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/hb2command.2dd
+#  - name: field2d/jp/he0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/he0command.2dd
+#  - name: field2d/jp/he0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/he0field.2dd
+#  - name: field2d/jp/he1command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/he1command.2dd
+#  - name: field2d/jp/lk0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/lk0command.2dd
+#  - name: field2d/jp/lk0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/lk0field.2dd
+#  - name: field2d/jp/lm0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/lm0command.2dd
+#  - name: field2d/jp/lm0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/lm0field.2dd
+#  - name: field2d/jp/mu0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/mu0command.2dd
+#  - name: field2d/jp/mu0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/mu0field.2dd
+#  - name: field2d/jp/nm0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/nm0command.2dd
+#  - name: field2d/jp/nm0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/nm0field.2dd
+#  - name: field2d/jp/nm1command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/nm1command.2dd
+#  - name: field2d/jp/po0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/po0command.2dd
+#  - name: field2d/jp/po0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/po0field.2dd
+#  - name: field2d/jp/tr0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/tr0command.2dd
+#  - name: field2d/jp/tr0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/tr0field.2dd
+#  - name: field2d/jp/tt0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/tt0command.2dd
+#  - name: field2d/jp/tt0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/tt0field.2dd
+#  - name: field2d/jp/tt1command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/tt1command.2dd
+#  - name: field2d/jp/tt2command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/tt2command.2dd
+#  - name: field2d/jp/tt3command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/tt3command.2dd
+#  - name: field2d/jp/tt4command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/tt4command.2dd
+#  - name: field2d/jp/tt5command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/tt5command.2dd
+#  - name: field2d/jp/tt6command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/tt6command.2dd
+#  - name: field2d/jp/wi0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/wi0command.2dd
+#  - name: field2d/jp/wi0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/wi0field.2dd
+#  - name: field2d/jp/wm0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/wm0command.2dd
+#  - name: field2d/jp/wm0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/wm0field.2dd
+#  - name: field2d/jp/zz0command.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/zz0command.2dd
+#  - name: field2d/jp/zz0field.2dd
+#    method: copy
+#    source:
+#    - name: field2d/jp/zz0field.2dd
